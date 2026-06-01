@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey?style=flat-square)
 
----
+
 
 ## ✨ What This Skill Does
 
@@ -25,7 +25,7 @@ Once installed, type a slash command in Claude Code and get professional LinkedI
 
 **Reinforcement Learning built-in:** Every time you tell the skill what worked, it updates `memory.md`. Every future generation reads that memory and adapts to your personal voice, tone, and style — automatically.
 
----
+
 
 ## 📁 Folder Structure
 
@@ -56,7 +56,7 @@ linkedin-content-skill/
 
 > **Note:** The `.claude/` folder is hidden on macOS by default. Press `⌘ Cmd + Shift + .` in Finder to reveal hidden files.
 
----
+
 
 ## 🚀 Installation — Step by Step
 
@@ -65,7 +65,7 @@ linkedin-content-skill/
 - Python 3.8 or higher (`python3 --version` to check)
 - A Claude Pro or Team account
 
----
+
 
 ### Option A — Install as a Project-Level Skill
 
@@ -115,7 +115,7 @@ claude
 
 Type `/` in the Claude Code prompt. You should see all 7 LinkedIn commands in the autocomplete list.
 
----
+
 
 ### Option B — Install as a Global User-Level Skill
 
@@ -162,9 +162,9 @@ claude
 ```
 Type `/` — your LinkedIn commands are now available globally in every project.
 
----
 
-## ⚙️ Personalising the Skill
+
+## Personalising the Skill
 
 ### Step 1: Set Your Niche and Tone (Do This First)
 
@@ -189,7 +189,6 @@ The skill learns from you over time. After generating content you love:
 
 Claude Code will automatically run `memory_manager.py` and store the learning. Future content will reflect it.
 
----
 
 ## 🛠️ How to Modify & Extend the Skill
 
@@ -210,7 +209,7 @@ Each command's behaviour is defined in its `SKILL.md`:
 If `niche` is not specified, ALWAYS ask the user before proceeding.
 ```
 
----
+
 
 ### To change the content quality and SEO rules — edit `utils.py`
 
@@ -238,7 +237,6 @@ TONE_GUIDE = {
 
 Then update `.claude/skills/generate-post/SKILL.md` to include `humorous` as an option.
 
----
 
 ### To add a brand new command
 
@@ -259,7 +257,6 @@ Then update `.claude/skills/generate-post/SKILL.md` to include `humorous` as an 
 3. Create `scripts/your_script.py` with your logic
 4. Restart Claude Code — the command is live immediately
 
----
 
 ## 💡 Usage Examples
 
@@ -283,7 +280,7 @@ Then update `.claude/skills/generate-post/SKILL.md` to include `humorous` as an 
 /show-memory
 ```
 
----
+
 
 ## 🔄 Reinforcement Learning — How It Works
 
@@ -307,9 +304,9 @@ Content becomes more aligned with YOUR voice over time
 
 The `memory.md` file grows richer with every piece of feedback. After 10-20 feedback entries, the skill generates content that sounds genuinely like you.
 
----
 
-## 🔧 Script Reference
+
+## Script Reference
 
 ### `scripts/generate_post.py`
 ```bash
@@ -354,9 +351,8 @@ python3 scripts/memory_manager.py read
 python3 scripts/memory_manager.py clear
 ```
 
----
 
-## 🌍 Platform Compatibility
+## Platform Compatibility
 
 | Platform | Support |
 |---|---|
@@ -365,9 +361,9 @@ python3 scripts/memory_manager.py clear
 | **GitHub Copilot** | ⚠️ Partial — add `SKILL.md` content to `.github/copilot-instructions.md` |
 | **Cursor** | ⚠️ Partial — add `SKILL.md` content to `.cursorrules` |
 
----
 
-## 🤝 Contributing
+
+## Contributing
 
 Contributions are welcome. To add a new command or improve an existing one:
 
@@ -376,12 +372,12 @@ Contributions are welcome. To add a new command or improve an existing one:
 3. Make your changes following the structure above
 4. Submit a Pull Request with a description of what you changed
 
----
+
 
 ## 📄 License
 
 MIT License — free to use, modify, and distribute. See [LICENSE](LICENSE) for details.
 
----
+
 
 *Built for LinkedIn creators who want AI that learns their voice, not generic content.*
