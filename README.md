@@ -2,6 +2,8 @@
 
 > A production-ready Claude Code skill that turns your AI assistant into a personal LinkedIn Content Strategist. Generate SEO-optimised posts, carousels, newsletters, and content calendars — with a reinforcement learning memory that gets smarter every time you use it.
 
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
@@ -380,3 +382,9 @@ MIT License — free to use, modify, and distribute. See [LICENSE](LICENSE) for 
 
 
 *Built for LinkedIn creators who want AI that learns their voice, not generic content.*
+
+<!-- BADGE REFERENCE LINKS -->
+[forks-shield]: https://img.shields.io/github/forks/sarveshtalele/linkedin-content-skill?style=flat-square
+[forks-url]: https://github.com/sarveshtalele/linkedin-content-skill/network/members
+[stars-shield]: https://img.shields.io/github/stars/sarveshtalele/linkedin-content-skill?style=flat-square
+[stars-url]: https://github.com/sarveshtalele/linkedin-content-skill/stargazers
